@@ -1,0 +1,26 @@
+{
+  "name": "node_tuto_3",
+  "version": "1.0.0",
+  "description": "fist api with swagger",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zomeserges/swagger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zomeserges/swagger/issues"
+  },
+  "author": "zome",
+  "license": "ISC",
+  "homepage": "https://github.com/zomeserges/swagger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
